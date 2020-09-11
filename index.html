@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html id="top">
+<head>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <a id="header-img-container" href="#top"><img id="header-img" src="RockzillaLogo.gif" alt="Rockzilla: Napa's ONE and ONLY climbing gym"></a>
+    <nav id="nav-bar">
+      <a class="nav-link" href="#about">ABOUT</a>
+      <a class="nav-link" href="#pricing">PRICING</a>
+      <a class="nav-link" href="#facilities">FACILITIES</a>
+      <a class="nav-link" href="#contact">CONTACT</a>
+    </nav>
+  </header>
+  <div id="about">
+    <h1>WELCOME TO ROCKZILLA</h1>
+    <p>Founded in 2007 Rockzilla LLC. is a family-owned and operated rock
+      climbing gym serving the greater Napa Valley region.  As the only
+      facility of its kind, within a 30 mile radius, Rockzilla’s mission
+      is to give youth and families a facility to be themselves and also a
+      part of a much larger community.  We strive to promote a healthy,
+      fulfilling, and fun lifestyle by offering climbing experiences for
+      individuals of all ages and abilities.</p>
+  </div>
+  <div id="pricing">
+    <h2>MEMBERSHIP AND DAY RATES</h2>
+    <div class="compare">
+      <div class="compare-box">
+        <h3 class="pricing-title">DAY PASS</h3>
+        <div class="price-list">
+          <p>Individual: <span class="price"><span class="align-dollar">$</span>17</span></p>
+        </div>
+      </div>
+      <div class="compare-box">
+        <h3 class="pricing-title">MONTH PASS</h3>
+        <div class="price-list">
+          <p>Individual: <span class="price"><span class="align-dollar">$</span>65</span></p>
+        </div>
+      </div>
+      <div class="compare-box">
+        <h3 class="pricing-title">3 MONTH PASS</h3>
+        <div class="price-list">
+          <p>Individual: <span class="price"><span class="align-dollar">$</span>180</span></p>
+        </div>
+      </div>
+      <div class="compare-box">
+        <h3 class="pricing-title">1 YEAR PASS</h3>
+        <div class="price-list">
+          <p>Individual: <span class="price"><span class="align-dollar">$</span>180</span></p>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex; justify-content: space-evenly;">
+      <div style="flex: 2 0 auto;"></div>
+      <p style="flex: 1 0 auto; text-align: center;">*Includes free slackline!</p>
+      <p style="flex: 1 0 auto; text-align: center;">Rental gear is $5 per person</p>
+      <div style="flex: 2 0 auto;"></div>
+    </div>
+  </div>
+  <div id="facilities">
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/gBqHPEWJEv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div id="contact">
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+      <div class="input">
+        <label class="form-label" for="name">NAME:</label>
+        <input id="name" type="text" name="name" placeholder="Enter your name" value="" required>
+      </div>
+      <div class="input">
+        <label class="form-label" for="email">EMAIL:</label>
+        <input id="email" type="email" name="email" placeholder="Enter your Email address" value="" required>
+      </div>
+      <div class="input">
+        <label class="form-label" for="message">MESSAGE:</label>
+        <textarea id="message" name="message" placeholder="Enter your message to Rockzilla here..." value="" required></textarea>
+      </div>
+      <input id="submit" type="submit" value="SEND">
+    </form>
+  </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

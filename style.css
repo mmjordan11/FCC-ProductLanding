@@ -1,0 +1,126 @@
+:root {
+  --link-color: #262B47;
+  --link-color-hover: #3042A2;
+  --altbg-color: #674831;
+  --bg-color: #AA6839;
+  --text-color: #111219;
+  --border-color: #1A2114;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0 5vw;
+  background-color: var(--bg-color);
+  font-family: 'Rubik', sans-serif;
+  color: var(--text-color);
+}
+
+header {
+  margin: 0 -5vw;
+}
+
+nav a {
+  border-right: 1px solid var(--link-color);
+}
+
+nav a:last-child {
+  border-right: none;
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-color-hover);
+}
+
+h1, h2 {
+  letter-spacing: .5rem;
+  font-style: bold;
+}
+
+#about, #pricing, #facilities, #contact {
+  scroll-behavior: smooth;
+}
+
+#header {
+  letter-spacing: .25em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50px;
+  position: sticky;
+  top: 0;
+  background-color: var(--altbg-color);
+}
+
+#header-img-container{
+  height: 100%;
+  padding-left: 2.5vw;
+}
+
+#header-img {
+  height: 75px;
+  width: auto;
+  padding: 15px 0;
+}
+
+#nav-bar {
+  display: flex;
+  padding-right: 2.5vw;
+}
+
+#contact {
+  background-color: var(--altbg-color);
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.compare {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.compare-box {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid var(--border-color);
+  width: 20vw;
+  min-width: 200px;
+}
+
+.pricing-title {
+  align-self: center;
+  background-color:
+}
+
+@media (max-width: 1000px) {
+  .compare {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .compare-box {
+    margin: 2% 0;
+    width: 50vw;
+    min-width: 200px;
+  }
+
+  #nav-bar {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    border: none;
+  }
+}
